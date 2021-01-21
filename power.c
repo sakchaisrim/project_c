@@ -1,22 +1,19 @@
-#include<stdio.h>
+#include<stdio.h> 
 
 void main(){
 
     system("cls");
 
     int base,exp;
-    printf("Enter base: ");
-    scanf("%d",&base);
+    printf("Enter base: "); scanf("%d",&base);
 
-    printf("Enter exponent: ");
-    scanf("%d",&exp);
+    printf("Enter exponent: "); scanf("%d",&exp);
 
     cal_power(base, exp);
 }
 
 void cal_power(int b, int e){
-    int power = 1;
-    int mexp = 0;
+    int power = 1, mexp = 0;
     mexp = mexp + e;
 
     while (e>0)
